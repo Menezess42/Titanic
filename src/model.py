@@ -2,6 +2,7 @@
 # Imports
 from pathlib import Path
 from pprint import pprint
+from cli.cli import analyze_data
 
 import numpy as np
 import pandas as pd
@@ -21,7 +22,7 @@ def show_data(data: pd.DataFrame, n: int = 10) -> None:
         data: pd.DataFrame -- data to be show;
         n: int default 10 -- number of lines to show;
     """
-    pprint(data[:n])
+    analyze_data(data, n)
 
 
 if __name__ == "__main__":
