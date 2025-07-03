@@ -26,6 +26,7 @@
                 pythonPkgs.numpy
                 pythonPkgs.tqdm
                 pythonPkgs.requests
+                pythonPkgs.click
                 pkgs.taglib
                 pkgs.openssl
                 pkgs.libxml2
