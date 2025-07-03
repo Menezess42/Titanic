@@ -27,6 +27,7 @@
                 pythonPkgs.tqdm
                 pythonPkgs.requests
                 pythonPkgs.click
+                pythonPkgs.scikit-learn
                 pkgs.taglib
                 pkgs.openssl
                 pkgs.libxml2
