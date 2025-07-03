@@ -7,7 +7,6 @@ def analyze_data(*args, **kwargs):
     """
     if args:
         data = args[0]
-        n = args[1]
         file = None
 
     elif kwargs:
