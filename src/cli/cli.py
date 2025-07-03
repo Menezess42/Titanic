@@ -15,12 +15,10 @@ def analyze_data(*args, **kwargs):
 
     if file:
         df = pd.read_csv(file)
-        click.echo("DataFrame loaded. Here's the head:")
         click.echo(df.head().to_string())  # to_string() for better console display
         click.echo("\n\n")
 
     elif not data.empty:
-        click.echo("DataFrame loaded. Here's the head:")
         click.echo(data.head().to_string())  # to_string() for better console display
         click.echo("\n\n")
 
