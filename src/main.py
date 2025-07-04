@@ -39,8 +39,12 @@ DATA_PATH = Path(__file__).parent.parent / "data"
 train_df = pd.read_csv(f"{DATA_PATH}/train.csv")
 test_df = pd.read_csv(f"{DATA_PATH}/test.csv")
 
-# Showing train and test heads
+# Showing train heads
 analyze_data(train_df)
 
 # Loking into the information
 train_df.info()
+
+# Loking into the description of train data
+print("\n")
+print(train_df.describe())

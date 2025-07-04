@@ -1,0 +1,6 @@
+#+begin_src jupyter-python :session notebook :async t
+  import matplotlib.pyplot as plt
+#+end_src
+#+begin_src jupyter-python :session notebook :async t
+  import matplo
+#+end_src
