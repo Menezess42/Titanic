@@ -34,6 +34,7 @@
                 pythonPkgs.jupyter_client        # <-- comunicação
                 pythonPkgs.jupyter_core          # <-- registro de kernels
                 pythonPkgs.traitlets             # <-- base para kernel config
+                pythonPkgs.jupytext
                 pkgs.taglib
                 pkgs.openssl
                 pkgs.libxml2
