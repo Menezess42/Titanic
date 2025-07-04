@@ -29,6 +29,11 @@
                 pythonPkgs.click
                 pythonPkgs.scikit-learn
                 pythonPkgs.ipython
+                pythonPkgs.notebook              # <-- essencial para jupyter
+                pythonPkgs.ipykernel             # <-- essencial para jupyter
+                pythonPkgs.jupyter_client        # <-- comunicação
+                pythonPkgs.jupyter_core          # <-- registro de kernels
+                pythonPkgs.traitlets             # <-- base para kernel config
                 pkgs.taglib
                 pkgs.openssl
                 pkgs.libxml2

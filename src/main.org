@@ -1,7 +1,0 @@
-#+begin_src jupyter-python :session notebook :async t
-  import matplotlib.pyplot as plt
-#+end_src
-
-#+begin_src python :tangle yes :results output
-  import matplo
-#+end_src
