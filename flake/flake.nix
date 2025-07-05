@@ -35,6 +35,7 @@
                 pythonPkgs.jupyter_core          # <-- registro de kernels
                 pythonPkgs.traitlets             # <-- base para kernel config
                 pythonPkgs.jupytext
+                pythonPkgs.pynvim
                 pkgs.taglib
                 pkgs.openssl
                 pkgs.libxml2
