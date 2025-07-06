@@ -36,12 +36,9 @@
                 pythonPkgs.traitlets             # <-- base para kernel config
                 pythonPkgs.jupytext
                 pythonPkgs.pynvim
-               pythonPkgs.pynvim
-               pythonPkgs.jupyter-client
-               pythonPkgs.cairosvg
-               pythonPkgs.pnglatex
-               pythonPkgs.plotly
-               pythonPkgs.pyperclip
+                pythonPkgs.jupyter-client
+                pythonPkgs.pnglatex
+                pythonPkgs.pyperclip
                 pkgs.taglib
                 pkgs.openssl
                 pkgs.libxml2
