@@ -31,12 +31,12 @@
                 pythonPkgs.ipython
                 pythonPkgs.notebook              # <-- essencial para jupyter
                 pythonPkgs.ipykernel             # <-- essencial para jupyter
-                # pythonPkgs.jupyter_client        # <-- comunicação
+                pythonPkgs.jupyter_client        # <-- comunicação
                 pythonPkgs.jupyter-core          # <-- registro de kernels
                 pythonPkgs.traitlets             # <-- base para kernel config
                 pythonPkgs.jupytext
                 pythonPkgs.pynvim
-                pythonPkgs.jupyter-client
+                # pythonPkgs.jupyter-client
                 pythonPkgs.pnglatex
                 pythonPkgs.pyperclip
                 pkgs.taglib
