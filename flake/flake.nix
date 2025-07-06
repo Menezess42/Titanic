@@ -4,7 +4,7 @@
     inputs = {
         nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
         flake-utils.url = "github:numtide/flake-utils";
-        # essentials.url = "git+file:///mnt/hdmenezess42/GitProjects/flakeEssentials";
+# essentials.url = "git+file:///mnt/hdmenezess42/GitProjects/flakeEssentials";
         essentials.url = "path:/mnt/hdmenezess42/GitProjects/flakeEssentials";
     };
 
@@ -36,6 +36,12 @@
                 pythonPkgs.traitlets             # <-- base para kernel config
                 pythonPkgs.jupytext
                 pythonPkgs.pynvim
+               pythonPkgs.pynvim
+               pythonPkgs.jupyter-client
+               pythonPkgs.pcairosvg
+               pythonPkgs.ppnglatex
+               pythonPkgs.pplotly
+               pythonPkgs.ppyperclip
                 pkgs.taglib
                 pkgs.openssl
                 pkgs.libxml2
@@ -63,7 +69,7 @@
                             pip install -r requirements.txt
                             echo $NEW_HASH > $HASH_FILE
                             fi
-                    '';
+                            '';
                 };
                 }
                 );
