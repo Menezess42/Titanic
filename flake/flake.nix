@@ -38,10 +38,10 @@
                 pythonPkgs.pynvim
                pythonPkgs.pynvim
                pythonPkgs.jupyter-client
-               pythonPkgs.pcairosvg
-               pythonPkgs.ppnglatex
-               pythonPkgs.pplotly
-               pythonPkgs.ppyperclip
+               pythonPkgs.cairosvg
+               pythonPkgs.pnglatex
+               pythonPkgs.plotly
+               pythonPkgs.pyperclip
                 pkgs.taglib
                 pkgs.openssl
                 pkgs.libxml2
